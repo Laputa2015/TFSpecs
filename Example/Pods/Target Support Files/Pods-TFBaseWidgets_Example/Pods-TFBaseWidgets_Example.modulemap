@@ -1,0 +1,6 @@
+framework module Pods_TFBaseWidgets_Example {
+  umbrella header "Pods-TFBaseWidgets_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

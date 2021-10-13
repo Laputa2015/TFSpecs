@@ -1,0 +1,6 @@
+framework module Pods_TFBaseWidgets_Tests {
+  umbrella header "Pods-TFBaseWidgets_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

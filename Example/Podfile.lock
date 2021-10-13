@@ -1,0 +1,16 @@
+PODS:
+  - TFBaseWidgets (0.1.0)
+
+DEPENDENCIES:
+  - TFBaseWidgets (from `../`)
+
+EXTERNAL SOURCES:
+  TFBaseWidgets:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TFBaseWidgets: 79f06e8635f2da41b9ed9a2018d26eaa4398ef7c
+
+PODFILE CHECKSUM: a5f2318033ed1e235b07823664cedb6820355aaf
+
+COCOAPODS: 1.9.3

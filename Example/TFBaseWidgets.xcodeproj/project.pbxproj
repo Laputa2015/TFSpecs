@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		139C90ECA56D9B12731C3786 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		139C90ECA56D9B12731C3786 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		22463FF5950ECEF75F6AFC23 /* Pods-TFBaseWidgets_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFBaseWidgets_Tests.release.xcconfig"; path = "Target Support Files/Pods-TFBaseWidgets_Tests/Pods-TFBaseWidgets_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3FCD604436A39CDE0584A313 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3FCD604436A39CDE0584A313 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		58DB84F42B9143ACCDF67C3F /* Pods_TFBaseWidgets_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFBaseWidgets_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TFBaseWidgets_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFBaseWidgets_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		B3B7AC59A44152212F4F50C2 /* Pods-TFBaseWidgets_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFBaseWidgets_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TFBaseWidgets_Tests/Pods-TFBaseWidgets_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C44F3476234ABEDE517ABD90 /* Pods-TFBaseWidgets_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFBaseWidgets_Example.debug.xcconfig"; path = "Target Support Files/Pods-TFBaseWidgets_Example/Pods-TFBaseWidgets_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1573D248E6280D981C78470 /* Pods-TFBaseWidgets_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFBaseWidgets_Example.release.xcconfig"; path = "Target Support Files/Pods-TFBaseWidgets_Example/Pods-TFBaseWidgets_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FBDAF5FEE3F59FCEB38FCECE /* TFBaseWidgets.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TFBaseWidgets.podspec; path = ../TFBaseWidgets.podspec; sourceTree = "<group>"; };
+		FBDAF5FEE3F59FCEB38FCECE /* TFBaseWidgets.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TFBaseWidgets.podspec; path = ../TFBaseWidgets.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				B3B7AC59A44152212F4F50C2 /* Pods-TFBaseWidgets_Tests.debug.xcconfig */,
 				22463FF5950ECEF75F6AFC23 /* Pods-TFBaseWidgets_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
