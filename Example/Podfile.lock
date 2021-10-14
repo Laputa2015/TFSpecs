@@ -1,5 +1,5 @@
 PODS:
-  - TFBaseWidgets (0.1.0)
+  - TFBaseWidgets (0.1.1)
 
 DEPENDENCIES:
   - TFBaseWidgets (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TFBaseWidgets: 79f06e8635f2da41b9ed9a2018d26eaa4398ef7c
+  TFBaseWidgets: b5259afe54c2aed8d43bca00cb6da8db4d5c2b40
 
 PODFILE CHECKSUM: a5f2318033ed1e235b07823664cedb6820355aaf
 
